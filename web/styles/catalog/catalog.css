@@ -1,0 +1,127 @@
+/* Секция с каталогом курсов */
+.catalog-section {
+    display: none;
+    width: 100%;
+    padding: 35px;
+
+    opacity: 0;
+    -webkit-transition: 3s opacity;
+    -o-transition: 3s opacity;
+    transition: 3s opacity;
+}
+
+/* Контейнер с блоком */
+.catalog {
+    width: min(1240px, 100%);
+    padding: 40px;
+
+    border-radius: 30px;
+    background-color: var(--bg-gray);
+
+    margin: 0 auto;
+}
+
+/* Заголовок "Обучайтесь востребованным..." */
+.catalog__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+
+    margin-top: 16px;
+}
+
+/* Каталог курсов */
+.catalog__courses {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+
+    margin-top: 38px;
+}
+
+/* Блок в каталоге курсов */
+.catalog__course {
+    width: calc(50% - 15px);
+    height: 275px;
+    padding: 30px 0 0 40px;
+    border-radius: 15px;
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.catalog__course:nth-of-type(1) {
+    background-image: url("https://static.tildacdn.com/tild3131-6437-4861-b332-623066303537/Management.png");
+}
+
+.catalog__course:nth-of-type(2) {
+    background-image: url("https://static.tildacdn.com/tild3566-3439-4562-a338-366661326337/Development.png");
+}
+
+.catalog__course:nth-of-type(3) {
+    background-image: url("https://static.tildacdn.com/tild3132-6232-4134-b931-643263396364/Analytics.png");
+}
+
+.catalog__course:nth-of-type(4) {
+    background-image: url("https://static.tildacdn.com/tild3535-3565-4963-b438-313662343030/Design.png");
+}
+
+/* Название курса */
+.catalog__course-title {
+    font-weight: 700;
+    font-size: 44px;
+    color: #2c2c2c !important;
+}
+
+/* Текст внутри курса */
+.catalog__course-text {
+    padding-left: 15px;
+    border-left: 1px solid #000000;
+
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--text-black);
+
+    margin-top: 122px;
+}
+
+/* Ссылка на курсы */
+.catalog__course-link {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+
+    position: absolute;
+    bottom: 20px;
+    right: 55px;
+
+    background-image: url("https://static.tildacdn.com/tild3437-3431-4538-b932-396231353137/Link.png");
+    background-repeat: no-repeat;
+}
+
+
+
+/* Наведение на пк */
+@media (hover: hover) {
+    .catalog__course-link:hover {
+        scale: 1.25;
+    }
+}
+
+/* Клик на телефоне */
+@media (hover: none) {
+    .catalog__course-link:active {
+        scale: 1.25;
+    }
+}
+
+/* Кнопка "Перейти а каталог" */
+.catalog .button-green {
+    margin: 36px auto 0 auto;
+}

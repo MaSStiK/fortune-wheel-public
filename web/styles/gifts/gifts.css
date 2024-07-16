@@ -1,0 +1,89 @@
+/* Секция с подарками */
+.gifts-section {
+    width: 100%;
+    padding: 35px;
+}
+
+/* Контейнер с блоком */
+.gifts {
+    width: min(1240px, 100%);
+    padding: 60px 40px;
+
+    border-radius: 30px;
+    background-color: var(--bg-gray);
+
+    margin: 0 auto;
+}
+
+
+/* Контейнер с подарками */
+.gifts__container {
+    width: 100%;
+    padding-right: 20px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 65px 40px;
+
+    margin-top: 47px;
+}
+
+/* Блок с подарком */
+.gifts__gift {
+    width: 230px;
+    height: 150px;
+    position: relative;
+    padding: 16px;
+
+    border-radius: 15px; 
+    background: rgba(62, 62, 62, 0.2);
+}
+
+/* Обводка подарка */
+.gifts__gift::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    
+    padding: 2px; 
+    border-radius: 15px; 
+    background: -o-linear-gradient(355deg, #fffd38 0%, #a2ff76 100%); 
+    background: linear-gradient(95deg, #fffd38 0%, #a2ff76 100%); 
+    -webkit-mask: 
+       -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) content-box, 
+       -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+
+    mask: 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) content-box, 
+        -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)); 
+    mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude; 
+}
+
+/* Картинка подарка */
+.gifts__gift-image {
+    position: absolute;
+    top: -5px;
+    right: -26px;
+    -webkit-transform: rotate(13deg);
+        -ms-transform: rotate(13deg);
+            transform: rotate(13deg);
+}
+
+/* Описание подарка */
+.gifts__gift-text {
+    width: 130px;
+    font-size: 18px;
+}
