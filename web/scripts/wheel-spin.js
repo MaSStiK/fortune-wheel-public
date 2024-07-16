@@ -9,9 +9,6 @@ $("#wheel-spin").on("click tap", () => {
 
     let gift = randomNumber(0, gifts.length - 1)
 
-    console.log(gift);
-    console.log(gifts[gift]);
-
     localStorage.fortune_spin = JSON.stringify(gifts[gift])
     spinFortuneWheel(gift + 1)
 })
@@ -64,8 +61,6 @@ function spinFortuneWheel(giftId) {
 // Функция прокрутки и отображения секций с призом и курсов
 function showGift(doScroll) {
     let spin = JSON.parse(localStorage.fortune_spin) // Парсим данные о вращении
-
-    console.log(spin);
 
     $(".win__gift-name").text(spin.prize) // Заменяем текст на название приза
     // $("#win-promocode").text(spin.spin_gift) // Заменяем 
