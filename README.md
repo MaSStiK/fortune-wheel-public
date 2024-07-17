@@ -25,8 +25,33 @@
 ### Потенциальные пользователи Колеса фортуны
 Участники онлайн и офлайн мероприятия ProductCamp — продакт-менеджеры, проджект-менеджеры, CPO, аналитики, продуктовые дизайнеры.
 
-
 ### Механика использования
 Чтобы принять участие, нужно сначала пользователю зарегистрироваться, лишь только потом пользователь нажимает на кнопку "Крутить" для начала вращения колеса.
 Колесо останавливается на одной из 8 секций, определяя подарок и промокод для пользователя. 
 Промокод с ссылкой его активации приходит зарегистрированному пользователю на его почту
+
+### Стек
+HTML, CSS, JavaScript, jQuery, API, Tilda.
+
+### Скриншоты сайта
+· Основная информация
+![image](https://github.com/user-attachments/assets/1fb57b18-1f1e-46ef-8eb3-3a2e595ee4a7)
+
+· Призы
+![image](https://github.com/user-attachments/assets/7c481781-d832-47a8-9e89-d0d2e58e3ed9)
+
+· Инструкция и регистрация
+![image](https://github.com/user-attachments/assets/a7811e25-dc5a-436d-8aba-7be89bebd06c)
+![image](https://github.com/user-attachments/assets/e41a2e6a-bc4f-4dd6-8327-9fc2966b5924)
+
+· Колесо с призами
+![image](https://github.com/user-attachments/assets/04f5de4e-e375-4178-be0a-0e5e661f8d5c)
+
+· Сообщение о получении награды
+![image](https://github.com/user-attachments/assets/9cd61f51-08df-47b9-a090-bd853d22c259)
+
+· Форма связи с карьерным консультантом
+![image](https://github.com/user-attachments/assets/d965a906-d51c-4f4f-8e83-d7a92341f2fc)
+
+· Каталог курсов
+![image](https://github.com/user-attachments/assets/e5193feb-73c9-46ad-bfd7-c0d3a76a4bc2)
