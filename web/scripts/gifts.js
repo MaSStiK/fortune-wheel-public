@@ -3,8 +3,8 @@
 let gifts = [ // глобальный массив с данными
     {
         "color": "#A2FF76",
-        "image_url": "./web/assets/gifts/1.png",
-        "prize": "Промокод на 1 мини-курс ProductStar на выбор"
+        "image_url": "./web/assets/gifts/7.png",
+        "prize": "Бесплатная карьерно-коучинговая консультация"
     },
     {
         "color": "#BBFF75",
@@ -33,8 +33,8 @@ let gifts = [ // глобальный массив с данными
     },
     {
         "color": "#8ADFD2",
-        "image_url": "./web/assets/gifts/7.png",
-        "prize": "Бесплатная карьерно-коучинговая консультация"
+        "image_url": "./web/assets/gifts/1.png",
+        "prize": "Промокод на 1 мини-курс ProductStar на выбор"
     },
     {
         "color": "#63D4F3",
