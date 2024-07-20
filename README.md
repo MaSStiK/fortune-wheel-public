@@ -34,8 +34,8 @@
 HTML, CSS, JavaScript, jQuery, API, Tilda.
 
 ### Ссылки
-Ссылка на оригинальный сайт (закрыт) - https://micro.productstar.ru/fortune-wheel
-Ссылка на рабочую версию сайта (данные из формы никуда не отправляются) - https://masstik.github.io/fortune-wheel-public/
+Ссылка на оригинальный сайт (закрыт) - https://micro.productstar.ru/fortune-wheel  
+Ссылка на рабочую версию сайта (данные из формы никуда не отправляются) - https://masstik.github.io/fortune-wheel-public/  
 
 ### Скриншоты сайта
 · Основная информация
