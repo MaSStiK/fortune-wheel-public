@@ -31,7 +31,7 @@
 Промокод с ссылкой его активации приходит зарегистрированному пользователю на его почту
 
 ### Стек
-HTML, CSS, JavaScript, jQuery, IMask, API, Tilda.
+HTML, CSS, JavaScript, jQuery, IMask, API, Figma, Tilda.
 
 ### Ссылки
 [Оригинальный сайт](https://micro.productstar.ru/fortune-wheel) (Закрыт)  
