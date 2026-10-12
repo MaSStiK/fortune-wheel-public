@@ -54,7 +54,7 @@ Participants à ProductCamp, en ligne ou en présentiel :
 
 ## 🔗 Projets associés
 
-**Roue de la fortune** est liée à un second projet du Concours de projets personnels :
+**Roue de la fortune** est liée à un autre projet du Concours de projets personnels :
 
 - 🧠 [Évaluation des compétences en gestion de produit avec classement](https://github.com/MaSStiK/skills-testing-public)
 

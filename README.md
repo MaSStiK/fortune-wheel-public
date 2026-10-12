@@ -54,7 +54,7 @@ Participants attending ProductCamp online or in person:
 
 ## 🔗 Related Projects
 
-**Wheel of Fortune** is related to a second project from the Pet Project Competition:
+**Wheel of Fortune** is related to another project from the Pet Project Competition:
 
 - 🧠 [Product Management Skills Assessment with a Leaderboard](https://github.com/MaSStiK/skills-testing-public)
 
