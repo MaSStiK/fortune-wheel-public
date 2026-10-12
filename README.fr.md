@@ -10,7 +10,7 @@
 
 </div>
 
-**Roue de la fortune** est une roue interactive en ligne conçue pour distribuer des cadeaux aux utilisateurs de manière aléatoire.
+**Roue de la fortune** est une roue interactive en ligne conçue pour distribuer des cadeaux aux utilisateurs de manière aléatoire. Le projet a remporté la deuxième place au concours « Exposition de projets personnels » organisé par ProductStar.
 
 ## ✨ Fonctionnalités
 
@@ -56,7 +56,7 @@ Participants à ProductCamp, en ligne ou en présentiel :
 
 **Roue de la fortune** est liée à un second projet du Concours de projets personnels :
 
-- 🧠 [Évaluation des compétences en gestion de produit avec classement](https://github.com/MaSStiK/skills-testing-public) - évalue les compétences en gestion de produit à partir du [test existant de ProductStar](https://new.productstar.ru/test-for-product-camp2023#reg) et y ajoute un classement. L’objectif du participant est d’atteindre la première place du classement.
+- 🧠 [Évaluation des compétences en gestion de produit avec classement](https://github.com/MaSStiK/skills-testing-public)
 
 ## 🔗 Liens
 

@@ -10,7 +10,7 @@
 
 </div>
 
-**Wheel of Fortune** is an interactive online wheel designed to randomly distribute gifts to users.
+**Wheel of Fortune** is an interactive online wheel designed to randomly distribute gifts to users. The project took second place in ProductStar’s “Pet Project Exhibition” competition.
 
 ## ✨ Features
 
@@ -56,7 +56,7 @@ Participants attending ProductCamp online or in person:
 
 **Wheel of Fortune** is related to a second project from the Pet Project Competition:
 
-- 🧠 [Product Management Skills Assessment with a Leaderboard](https://github.com/MaSStiK/skills-testing-public) - evaluates product management skills using [ProductStar’s existing test](https://new.productstar.ru/test-for-product-camp2023#reg) and adds a leaderboard. The participant’s goal is to reach the top of the leaderboard.
+- 🧠 [Product Management Skills Assessment with a Leaderboard](https://github.com/MaSStiK/skills-testing-public)
 
 ## 🔗 Links
 
